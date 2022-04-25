@@ -10,6 +10,6 @@ jobs:
     runs-on: ubuntu-18.04
     steps:
       - name: echo hello world
-      - run: echo "hello world from github actions"
+        run: echo "hello world from github actions"
       - name: fecha
-      - run: date
+        run: date
