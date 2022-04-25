@@ -1,0 +1,15 @@
+name: hello world
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  hello_world_actions:
+    runs-on: ubuntu-18.04
+    steps:
+      - name: echo hello world
+      - run: echo "hello world from github actions"
+      - name: fecha
+      - run: date
